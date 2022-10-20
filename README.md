@@ -22,3 +22,7 @@ for i in range(5):
 2023-02-01 14:15:00
 2023-03-01 14:15:00
 ```
+
+## To-do
+
+- [ ] Support for the non-standard cron format: http://www.quartz-scheduler.org/documentation/quartz-2.3.0/tutorials/crontrigger.html
