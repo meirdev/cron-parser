@@ -72,8 +72,10 @@ class Expression:
                             except ValueError:
                                 continue
 
-                            if date < start:
+                            if start and date < start:
                                 continue
+
+                            start = None
 
                             if end and date > end:
                                 return
