@@ -64,7 +64,7 @@ def parse_expression(expression: str) -> Expression:
             times: list[int] = []
 
             for item in field.split(Token.SEPARATOR):
-                min: int | str = ""
+                min: str | int = ""
                 max: str | int = ""
                 step: str | int = ""
 
